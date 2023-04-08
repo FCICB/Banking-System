@@ -5,7 +5,7 @@ The user should be able to create accounts, deposit and withdraw money, transfer
 
 3. project is file will be created automatically
 
-### After create an account the user can do Transaction like :
+### After create an account the user can do Transactions like :
 - Deposite
 - Withdraw
 - Display account info
