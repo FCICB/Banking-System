@@ -5,8 +5,8 @@ The user should be able to create accounts, deposit and withdraw money, transfer
 
 ### After create an account the user can do Transaction:
 - Deposite
--Withdraw
--Display account info
--transfer money
--display all transactions
--check his/her balance
+- Withdraw
+- Display account info
+- transfer money
+- display all transactions
+- check his/her balance
