@@ -18,7 +18,6 @@ void Account::WithdrawTra(double money)
 {
     try {
         if (money > balance)
-            //cout << "Error" << "\n";
             throw exception();
         balance -= money;
         cout << "Your Balance Now is " << balance << "\n";
