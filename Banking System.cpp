@@ -26,35 +26,6 @@ void loggedinlist() {
 		<< " *6-Logout                                 *\n"
 		<< "********************************************\n";
 }
-/*bool loginacc() {
-	ifstream loginfile("log.txt");
-	string line;
-	bool loggedin = false;
-	cout << "enter your email :  ";
-	string email;
-	cin >> email;
-	cout << "enter your Password :  ";
-	string password;
-	cin >> password;
-
-	while (getline(loginfile,line))
-	{
-		int pos = line.find(",");
-		string orgemail = line.substr(0, pos);
-		string orgpass = line.substr(pos + 1);
-		if (email == orgemail && password == orgpass) {
-			cout << "logged Successfully \n";
-			loggedin = true;
-			cout << "";
-		}
-
-	}
-	if (!loggedin) {
-		cout << "please enter valid info \n";
-	}
-	return loggedin;
-}
-*/
 bool loginacc() {
 	ifstream loginfile("log.txt");
 	if (!loginfile.is_open()) {
@@ -132,8 +103,6 @@ void registeracc() {
 using namespace std;
 int main()
 {
-	//a1.setpass("5000");
-	//a2.setpass("9000");
 	cus2.setBalance(1000);
 
 	int choise;
